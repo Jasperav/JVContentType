@@ -1,0 +1,16 @@
+PODS:
+  - JVContentType (0.1.0)
+
+DEPENDENCIES:
+  - JVContentType (from `../`)
+
+EXTERNAL SOURCES:
+  JVContentType:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JVContentType: 9808253b38a4f27806b1498dfd5ec62831bf431b
+
+PODFILE CHECKSUM: 93d3030b2764bb7998543bba0fae31a85977051f
+
+COCOAPODS: 1.6.0.beta.1
