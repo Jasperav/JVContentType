@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JVContentType'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Creates reusabele components.'
 
   s.homepage         = 'https://github.com/Jasperav/JVContentType'
