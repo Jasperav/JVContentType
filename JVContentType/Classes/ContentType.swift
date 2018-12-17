@@ -46,12 +46,12 @@ public extension ContentType {
         return lhs.hashValue == rhs.hashValue
     }
     
-    init(old: Self, newContentTypeId: String?) {
+    init(old: Self, newContentTypeId: String? = nil) {
         self = old
         contentTypeId = newContentTypeId
     }
     
-    func copy(newContentTypeId: String) -> Self {
+    func copy(newContentTypeId: String? = nil) -> Self {
         return Self.init(old: self, newContentTypeId: newContentTypeId)
     }
 }
