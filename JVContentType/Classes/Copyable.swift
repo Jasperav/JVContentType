@@ -1,4 +1,5 @@
 /// Copys the content of the old contentTypeId into the new contentTypeId
+/// Use this in combination with ContentType if you need to use a class rather than a struct
 public protocol Copyable: class {
     
     /// Make this class func in an inherence tree

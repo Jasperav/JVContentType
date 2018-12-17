@@ -1,4 +1,4 @@
-/// Only final classes can adopt this protocol
+/// Only final classes/structs can adopt this protocol
 public protocol ContentType: Hashable {
 
     /// All reusable content types should be in here with a non-nil id.
@@ -44,5 +44,14 @@ public extension ContentType {
     /// ... therefore this equality method checks the hashValues.
     static func == (lhs: Self, rhs: Self) -> Bool {
         return lhs.hashValue == rhs.hashValue
+    }
+    
+    init(old: Self, newContentTypeId: String?) {
+        self = old
+        contentTypeId = newContentTypeId
+    }
+    
+    func copy(newContentTypeId: String) -> Self {
+        return Self.init(old: self, newContentTypeId: newContentTypeId)
     }
 }
