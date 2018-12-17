@@ -49,9 +49,17 @@ public extension ContentType {
     init(old: Self, newContentTypeId: String? = nil) {
         self = old
         contentTypeId = newContentTypeId
+        validateIsStruct(self)
     }
     
     func copy(newContentTypeId: String? = nil) -> Self {
         return Self.init(old: self, newContentTypeId: newContentTypeId)
     }
+}
+
+func validateIsStruct(_ obj: Any) {
+    #if DEBUG
+    let mirror = Mirror(reflecting: obj)
+    guard mirror.displayStyle == .struct else { fatalError("Call the other copy.") }
+    #endif
 }
