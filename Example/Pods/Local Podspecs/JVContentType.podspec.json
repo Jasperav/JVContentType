@@ -1,8 +1,7 @@
 {
   "name": "JVContentType",
-  "version": "0.1.0",
-  "summary": "A short description of JVContentType.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.6",
+  "summary": "Creates reusabele components.",
   "homepage": "https://github.com/Jasperav/JVContentType",
   "license": {
     "type": "MIT",
@@ -12,11 +11,11 @@
     "Jasperav": "Jasperav@hotmail.com"
   },
   "source": {
-    "git": "https://github.com/Jasperav/JVContentType.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Jasperav/JVContentType",
+    "tag": "0.1.6"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
   "source_files": "JVContentType/Classes/**/*"
 }

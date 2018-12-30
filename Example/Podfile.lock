@@ -1,5 +1,5 @@
 PODS:
-  - JVContentType (0.1.0)
+  - JVContentType (0.1.6)
 
 DEPENDENCIES:
   - JVContentType (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JVContentType: 9808253b38a4f27806b1498dfd5ec62831bf431b
+  JVContentType: 4e3a6dd8a99feaff3032928bc808bd3f835ba247
 
 PODFILE CHECKSUM: 93d3030b2764bb7998543bba0fae31a85977051f
 
