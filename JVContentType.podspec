@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JVContentType'
-  s.version          = '0.1.9'
+  s.version          = '0.2.0'
   s.summary          = 'Creates reusabele components.'
 
   s.homepage         = 'https://github.com/Jasperav/JVContentType'
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Jasperav' => 'Jasperav@hotmail.com' }
   s.source           = { :git => 'https://github.com/Jasperav/JVContentType', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'JVContentType/Classes/**/*'
 end
